@@ -8,6 +8,6 @@
     "sourceMap": true,
     "target": "es6"
   },
-  "exclude": ["node_modules", "server"],
-  "include": ["src", "test"]
+  "exclude": ["node_modules", "server", "test"],
+  "include": ["src"]
 }
