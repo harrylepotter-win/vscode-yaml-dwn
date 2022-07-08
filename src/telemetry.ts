@@ -48,7 +48,8 @@ const errorMassagesToSkip = [{ text: 'Warning: Setting the NODE_TLS_REJECT_UNAUT
 export class TelemetryOutputChannel implements vscode.OutputChannel {
   constructor(private readonly delegate: vscode.OutputChannel, private readonly telemetry: TelemetryService) {}
   replace(value: string): void {
-    throw new Error('Method not implemented.');
+    //do nothing
+    //throw new Error('Method not implemented.');
   }
 
   get name(): string {
