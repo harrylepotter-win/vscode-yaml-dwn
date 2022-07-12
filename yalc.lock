@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "yaml-language-server": {
+      "version": "1.1.0",
+      "signature": "e6dc54f39760b17c42a0927863006ce3",
+      "replaced": "git+https://github.com/harrylepotter-win/yaml-language-server-dwn.git"
+    }
+  }
+}
